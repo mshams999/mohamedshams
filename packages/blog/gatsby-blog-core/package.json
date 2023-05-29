@@ -1,0 +1,36 @@
+{
+  "name": "@elegantstack/gatsby-blog-core",
+  "version": "4.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "ElegantStack Team",
+  "license": "",
+  "scripts": {
+    "postinstall": "cd ../../.. && npx patch-package --patch-dir ./patches/gatsby-theme-flexiblog"
+  },
+  "dependencies": {
+    "@elegantstack/gatsby-plugin-mkdir": "^3.0.0",
+    "@elegantstack/gatsby-plugin-proxy-directives": "^4.0.0",
+    "@elegantstack/gatsby-plugin-proxy-schema": "^3.1.0",
+    "@elegantstack/gatsby-plugin-utility-directives": "^4.0.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@sanity/block-content-to-markdown": "^0.0.5",
+    "gatsby-plugin-catch-links": "^5.6.0",
+    "gatsby-plugin-image": "^3.6.0",
+    "gatsby-plugin-mdx": "3.20.0",
+    "gatsby-plugin-sharp": "^5.6.0",
+    "gatsby-remark-copy-linked-files": "^6.6.0",
+    "gatsby-remark-embed-video": "^3.2.1",
+    "gatsby-remark-images": "^7.6.0",
+    "gatsby-remark-responsive-iframe": "^6.6.0",
+    "gatsby-remark-smartypants": "^6.6.0",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-json": "^5.6.0",
+    "gatsby-transformer-sharp": "^5.6.0",
+    "get-value": "^3.0.1",
+    "patch-package": "^6.5.1",
+    "remark-slug": "^6.0.1",
+    "url-join": "^4.0.1"
+  }
+}

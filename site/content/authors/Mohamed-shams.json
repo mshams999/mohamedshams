@@ -1,0 +1,21 @@
+{
+  "name": "Mohamed shams",
+  "title": "Doctor",
+  "description": "Physician, Digital Marketing Specialist and lifelong learner",
+  "thumbnail": "mohamed-shams.jpg",
+  "social": [
+    {
+      "name": "Instagram",
+      "url": "https://github.com/instagram"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/MohamedShamsMS"
+    },
+    {
+      "name": "Website",
+      "url": "https://mohamedshams.com"
+    }
+  ],
+  "skills": ["Digital Marketing", "Public Health", "Medicine "]
+}

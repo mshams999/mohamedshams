@@ -1,0 +1,18 @@
+{
+  "name": "@elegantstack/gatsby-theme-flexiblog-science",
+  "version": "4.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "ElegantStack Team",
+  "license": "",
+  "dependencies": {
+    "@elegantstack/flow-ui-components": "^4.0.0",
+    "@elegantstack/flow-ui-layout": "^4.0.0",
+    "@elegantstack/flow-ui-theme": "^4.0.0",
+    "@elegantstack/flow-ui-widgets": "^4.0.0",
+    "@elegantstack/gatsby-blog-core": "^4.0.0",
+    "@elegantstack/gatsby-blog-helpers": "^4.0.0",
+    "@elegantstack/gatsby-blog-pages": "^3.2.0",
+    "@elegantstack/gatsby-common-helpers": "^4.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "@elegantstack/gatsby-starter-flexiblog-science",
+	"private": true,
+	"version": "4.0.0",
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"serve": "gatsby serve"
+	},
+	"dependencies": {
+		"@elegantstack/gatsby-blog-algolia": "^4.0.0",
+		"@elegantstack/gatsby-theme-flexiblog-science": "*",
+		"@parcel/source-map": "^2.1.1",
+		"dotenv": "^16.0.3",
+		"gatsby": "5.6.0",
+		"gatsby-plugin-algolia": "^1.0.3",
+		"gatsby-plugin-disqus": "^1.2.6",
+		"gatsby-plugin-google-analytics": "^5.10.0",
+		"gatsby-source-contentful": "^7.4.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.4"
+	}
+}
