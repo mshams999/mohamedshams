@@ -21,7 +21,7 @@ const styles = {
 }
 
 const Categories = ({ variant, categories, ...props }) => (
-  <Section aside={variant === 'vertical'} title='Topics' {...props}>
+  <Section aside={variant === 'vertical'} title='الموضوعات' {...props}>
     <Box sx={styles[variant]}>
       {categories &&
         categories.map(({ id, name, slug, totalCount, icon }) => {
