@@ -17,7 +17,7 @@ export const PostTags = ({ tags }) =>
   tags && tags.length > 0 ? (
     <Flex sx={styles.wrapper}>
       <Heading variant='h5' sx={styles.heading}>
-        Tags
+        هاشتاج
       </Heading>
       <Box variant='lists.badges'>
         {tags.map(({ id, name, slug }) => (

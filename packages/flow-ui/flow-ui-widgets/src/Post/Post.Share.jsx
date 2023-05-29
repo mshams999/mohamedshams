@@ -60,7 +60,7 @@ const PostShare = ({ location, title }) => {
   return (
     <Flex sx={styles.wrapper}>
       <Heading variant='h5' sx={styles.heading}>
-        Share
+        شارك
       </Heading>
       {buttonsWithIcons.map(({ name, color, Icon }) => {
         const ShareButton = buttons[name]
