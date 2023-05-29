@@ -85,7 +85,7 @@ const Posts = ({
       <Divider />
       <Stack
         effectProps={{ effect: false }}
-        title='Whats New?'
+        title='المقالات الجديدة'
         direction={[`column`, null, null, `row`]}
       >
         <Main
