@@ -34,7 +34,7 @@ export const HeaderMenu = ({ mobileMenu = {} }) => {
         headingProps={{ variant: 'h3' }}
         items={[
           {
-            title: 'Main Menu',
+            title: 'القائمة الرئيسية',
             items: headerMenu
           },
           mobileMenu
