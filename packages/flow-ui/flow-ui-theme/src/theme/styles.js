@@ -35,25 +35,30 @@ export default {
     mb: 4
   },
   h2: {
-    variant: `text.h2`
+    variant: `text.h2`,
+    direction: 'rtl',
   },
   h3: {
     variant: `text.h3`,
     '& + pre': {
       mt: 0
-    }
+    },
+    direction: 'rtl',
   },
   h4: {
     variant: `text.h4`,
     '& + pre': {
       mt: 0
-    }
+    },
+    direction: 'rtl',
   },
   h5: {
-    variant: `text.h5`
+    variant: `text.h5`,
+    direction: 'rtl',
   },
   h6: {
-    variant: `text.h6`
+    variant: `text.h6`,
+    direction: 'rtl',
   },
   hr: {
     my: 4,
@@ -65,13 +70,16 @@ export default {
     mb: 4,
     code: {
       fontSize: `inherit`
-    }
+    },
+    direction: 'rtl',
   },
   ol: {
-    mb: 4
+    mb: 4,
+    direction: 'rtl',
   },
   ul: {
-    mb: 4
+    mb: 4,
+    direction: 'rtl',
   },
   li: {
     color: 'article',
@@ -79,7 +87,8 @@ export default {
     code: {
       fontSize: `inherit`
     },
-    m: 0
+    m: 0,
+    direction: 'rtl',
   },
   table: {
     borderRadius: `default`,
