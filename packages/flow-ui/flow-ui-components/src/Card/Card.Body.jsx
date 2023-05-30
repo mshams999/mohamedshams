@@ -10,7 +10,8 @@ const styles = {
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `center`,
-    flex: 1
+    flex: 1,
+    direction: `rtl`,
   }
 }
 

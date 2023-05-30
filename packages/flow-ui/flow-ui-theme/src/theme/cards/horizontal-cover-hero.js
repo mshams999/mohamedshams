@@ -67,7 +67,7 @@ export default {
     fontSize: [5, 6, null, 7],
     width: [`full`, null, null, `2/3`],
     color: [`heading`, null, `white`],
-    textAlign: `left`,
+    textAlign: `right`,
     pr: [0, null, 4, 5],
     m: 0
   },
