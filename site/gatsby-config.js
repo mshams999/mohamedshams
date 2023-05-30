@@ -11,6 +11,16 @@ module.exports = {
         shortname: process.env.DISQUS_SHORTNAME
       }
     },
+    { 
+    resolve: `gatsby-plugin-google-gtag`,
+    options: {
+      // You can add multiple tracking ids and a pageview event will be fired for all of them.
+      trackingIds: [
+        "GA-TRACKING_ID", // Google Analytics / GA
+        ], 
+      },
+    },
+    
     {
       resolve: 'gatsby-source-contentful',
       options: {
