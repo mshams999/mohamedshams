@@ -66,15 +66,15 @@ module.exports = {
     social: [
       {
         name: 'Github',
-        url: 'https://github.com/gatsbyjs'
+        url: 'https://github.com/mshams999'
       },
       {
-        name: 'Twitter',
-        url: 'https://twitter.com/gatsbyjs'
+        name: 'X',
+        url: 'https://twitter.com/MohamedShamsMS'
       },
       {
         name: 'Instagram',
-        url: 'https://github.com/gatsbyjs'
+        url: 'https://www.instagram.com/mohmed_shamsms/'
       }
     ],
 
