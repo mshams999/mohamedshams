@@ -11,9 +11,6 @@ const ContactInfo = () => {
     <Section aside title='Advertise With Us'>
       <Card variant='paper'>
         <Text variant='p'>Interested in working together?</Text>
-        <Text variant='p'>
-          Suspendisse potenti. Mauris mollis diam tempus ut.
-        </Text>
         {phone && (
           <Text>
             <IconButton variant='simple' role='presentation'>
